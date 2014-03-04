@@ -1,7 +1,7 @@
 $("document").ready(function(){
 	var setRes;
 	var leftPos = 0;
-	var link = $("a#hlink").get();
+	var link = $("a#hlink")[0];
 
 
 	function start() {
@@ -24,9 +24,10 @@ $("document").ready(function(){
 
 	}
 
+//window.onload = function(){
 	setTimeout(start, 2000);	
-
-});
+//}
+//});
 
 
 // var leftPosition = 0;
