@@ -1,3 +1,5 @@
+$("document").ready(function(){
+
 	var setRes;
 	var link = $('a#hlink');
 	var leftPos = 0;
@@ -24,7 +26,5 @@
 
 	}
 
-	
-$("document").ready(function(){
 	start();
 });
