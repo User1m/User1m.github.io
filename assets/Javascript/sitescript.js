@@ -1,7 +1,7 @@
 $("document").ready(function(){
 	var setRes;
 	var leftPos = 0;
-	var link = $("a#hlink");
+	var link = $("a#hlink").get();
 
 
 	function start() {
