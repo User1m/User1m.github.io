@@ -1,7 +1,7 @@
 $("document").ready(function(){
 	var setRes;
 	var leftPos = 0;
-	var link = $("a#hlink").value;
+	var link = $("a#hlink");
 
 
 	function start() {
@@ -24,7 +24,7 @@ $("document").ready(function(){
 
 	}
 
-	setTimeout(start, 5000);	
+	setTimeout(start, 2000);	
 
 });
 
