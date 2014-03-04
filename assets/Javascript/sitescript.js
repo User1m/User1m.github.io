@@ -8,7 +8,6 @@
 		link.style.top = "50px";
 
 		setRes = setInterval(move, 50);
-
 	}
 
 	function move() {
@@ -24,6 +23,6 @@
 
 	}
 
-$("document").ready(function(){
+windown.onload = function(){
 	setTimeout(start, 5000);	
-});
+}
