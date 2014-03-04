@@ -27,7 +27,7 @@ $("document").ready(function(){
 //window.onload = function(){
 	setTimeout(start, 2000);	
 //}
-//});
+});
 
 
 // var leftPosition = 0;
