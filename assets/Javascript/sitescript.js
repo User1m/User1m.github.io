@@ -1,5 +1,5 @@
 	var setRes;
-	var link = $("a");
+	var link = document.getElementById("hlink");
 	var leftPos = 0;
 
 	function start() {
