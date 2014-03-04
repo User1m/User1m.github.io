@@ -23,7 +23,7 @@
 		}
 
 	}
-	
+
 $("document").ready(function(){
-	start();
+	setTimeout(start, 5000);	
 });
