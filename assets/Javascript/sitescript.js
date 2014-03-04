@@ -1,30 +1,30 @@
 $("document").ready(function(){
-var setRes;
-var leftPos = 0;
-var link = $("a#hlink").value;
+	var setRes;
+	var leftPos = 0;
+	var link = $("a#hlink").value;
 
 
-function start() {
-	link.style.position = "absolute";
-	link.style.left ="0px";	
-	link.style.top = "50px";
-	setRes = setInterval(move, 50);
-}
-
-function move() {
-	leftPos+=2;
-	link.style.left=leftPos+"px";
-
-	if(leftPos>1000) {
-		clearInterval(setRes);
-		link.style.position="";
-		link.style.left="";
-		link.style.top="";
+	function start() {
+		link.style.position = "absolute";
+		link.style.left ="0px";	
+		link.style.top = "50px";
+		setRes = setInterval(move, 50);
 	}
 
-}
+	function move() {
+		leftPos+=2;
+		link.style.left=leftPos+"px";
 
-setTimeout(start, 5000);	
+		if(leftPos>1000) {
+			clearInterval(setRes);
+			link.style.position="";
+			link.style.left="";
+			link.style.top="";
+		}
+
+	}
+
+	setTimeout(start, 5000);	
 
 });
 
