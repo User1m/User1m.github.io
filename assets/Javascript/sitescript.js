@@ -1,3 +1,4 @@
+$("document").ready(function(){
 var setRes;
 var leftPos = 0;
 var link = $("a#hlink").value;
@@ -23,9 +24,10 @@ function move() {
 
 }
 
-$("document").ready(function(){
-	setTimeout(start, 5000);	
+setTimeout(start, 5000);	
+
 });
+
 
 // var leftPosition = 0;
 // var intervalResult;
