@@ -1,6 +1,6 @@
 var setRes;
 var leftPos = 0;
-var link = $("a#hlink");
+var link = $("a#hlink").value;
 
 
 function start() {
