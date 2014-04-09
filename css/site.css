@@ -1,9 +1,13 @@
-div#intro p{
+.intro p{
 	font-size: 25px;
 }
 
-div#time ul li{
+.time ul li{
 	font-size: 23px;
+}
+
+.timeli ul li{
+	font-size: 18px;
 }
 
 .cperrault p{
@@ -34,4 +38,16 @@ div.large-3.columns img {
 	margin-left:auto;
 	margin-right:auto;
 	width:80%;
+}
+.eval p{
+	line-height: 2.5em;
+}
+
+a{
+	text-decoration: none;
+}
+div.intro iframe {
+    margin: 0 auto;
+    background-color: #777;
+    display: block;
 }
