@@ -9,34 +9,61 @@
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
-  <!-- Header and Nav -->
   <div class="row">
     <div class="large-12 columns">
-      <ul class="button-group right">
-        <li><a href="index.html" class="button">Home</a></li>
-        <li><a href="versions.html" class="button">Versions</a></li>
-        <li><a href="timeline.html" class="button">Timeline</a></li>
-        <li><a href="con.html" class="button">Controversy</a></li>
-        <li><a href="evaluation.html" class="button">Evaluation</a></li>
-        <li><a href="about.html" class="button">Sources</a></li>
-        <li><a href="contact.html" class="button">Contact</a></li>
-      </ul>
-    </div>
+      <!-- Navigation -->
+
+      <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1>
+              <a href="#">
+                Little Red Riding Hood
+              </a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+           <li class="divider"></li>
+           <li><a href="index.html" >Home</a></li>
+           <li class="divider"></li>
+           <li><a href="versions.html" >Versions</a></li>
+           <li class="divider"></li>
+           <li><a href="timeline.html" >Timeline</a></li>
+           <li class="divider"></li>
+           <li><a href="con.html" >Controversy</a></li>
+           <li class="divider"></li>
+           <li><a href="evaluation.html" >Evaluation</a></li>
+           <li class="divider"></li>
+           <li><a href="about.html" >Sources</a></li>
+           <li class="divider"></li>
+           <li><a href="contact.html" >Contact</a></li>
+           <li class="divider"></li>
+         </ul>
+       </section>
+     </nav>
+     
+     <!-- End Top Bar -->
+   </div>
+ </div>
+
+<!-- End Header and Nav -->
+
+
+<!-- First Band (Image) -->
+
+<div class="row">
+  <div class="large-12 columns">
+    <img src="images/main.png">
+
+    <hr>
   </div>
-
-
-  <!-- End Header and Nav -->
-
-
-  <!-- First Band (Image) -->
-
-  <div class="row">
-    <div class="large-12 columns">
-      <img src="images/main.png">
-
-      <hr>
-    </div>
-  </div>
+</div>
 <!-- 
   <div class="row">
     <div class="large-4 columns">
@@ -261,6 +288,15 @@
           </div>
         </div>
       </footer>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="bower_components/foundation/js/foundation.min.js"></script>
+      <script>
+      $(document).foundation();
+
+      var doc = document.documentElement;
+      doc.setAttribute('data-useragent', navigator.userAgent);
+      </script>
 
     </body>
     </html>
